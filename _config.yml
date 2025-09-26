@@ -30,6 +30,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "posts"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
