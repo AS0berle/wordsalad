@@ -30,11 +30,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-scholar
 defaults:
   - scope:
       path: "_posts"
     values:
       layout: "posts"
+    plugins:
+      - jekyll-scholar
+scholar:
+  style: ieee # Or any other CSL style (e.g., ieee, acm, nature)
+  locale: en # Or your desired locale
+#  bibliography: _bibliography/references.bib # Path to your BibTeX file
 
 # Exclude from processing.
 # The following items will not be processed, by default.
