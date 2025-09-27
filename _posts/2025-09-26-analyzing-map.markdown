@@ -369,7 +369,7 @@ To check the above results, have some charts! For each chart, I computed samples
 
 ![n=100,rho=8]({{ site.baseurl }}/assets/images/2025-09-26/map-100-8.png)
 
-We can see the discrete nature of MAP-I on full display – the histogram has an “empty” space in between each bar. In fact, this is because the parity of $t \sim T$ and $f \sim F$ is determined fully by $n$ and $\rho$. The maximum value of either distribution is $n p$ (in the case that all elements of all vectors bound and bundled into $S$ were equal to $1$), and all possible other values count down by $2$ from there. This does mean the plotted PMFs are slightly dishonest – in reality, they’re not smooth either. However, the plot looks much nicer by pretending they are instead of having them dip back down to $0$ on every other integer, or plotting them as discontinuous.
+We can see the discrete nature of MAP-I on full display – the histogram has an “empty” space in between each bar. In fact, this is because the parity of $t \sim T$ and $f \sim F$ is determined fully by $n$ and $\rho$. The maximum value of either distribution is $n p$ (in the case that all elements of all vectors bound and bundled into $S$ were equal to $1$), and all possible other values count down by $2$ from there. This does mean the plotted PMFs are slightly dishonest – in reality, they’re not smooth either. However, the plot looks much nicer by pretending they are instead of having them dip back down to $0$ on every other integer, or plotting them as discontinuous line segments.
 
 ![n=700,rho=20]({{ site.baseurl }}/assets/images/2025-09-26/map-700-20.png)
 
