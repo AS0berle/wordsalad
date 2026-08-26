@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Alex. I'm currently a Junior Data Scientist at a small tech company, and I'm beginning to apply to PhD programs in Computer Science. I'm interested in understanding how and why architectural decisions impact the performance of deep neural networks. In particular, I'm interested in understanding how model architecture influences the training dynamics of models, and the internal structures that form during training.
+Hi, I'm Alex, a computer science PhD student at Michigan State University and a member of the [OPTML](https://www.optml-group.com/) research lab there. My interests center around understanding how large foundation models work internally, and how we can leverage that understanding to efficiently train safer models.
 
-Previously, I worked on Vector Symbolic Architectures (VSAs) with Dr. Tim Oates and Dr. Edward Raff at the Univesity of Maryland, Baltimore County. VSAs represent symbols as high-dimensional vectors and define operators to manipulate them such that multiple symbols can be combined into a composite representation (known as a hypervector). The hypervector can then be "queried" using the operators in order to recover the original components [[1]](#1). Prior work at UMBC showed how VSAs can be integrated into deep learning systems, such as compressing the output layer when performing Extreme Multilabel Classification [[2]](#2).
+Previously, I spent a few years in industry as a data scientist at a small tech company, where I lead several deep learning projects. As an undergrad, I worked on Vector Symbolic Architectures (VSAs) with Dr. Tim Oates and Dr. Edward Raff at the Univesity of Maryland, Baltimore County. VSAs represent symbols as high-dimensional vectors and define operators to manipulate them such that multiple symbols can be combined into a composite representation (known as a hypervector). The hypervector can then be "queried" using the operators in order to recover the original components [[1]](#1). Prior work at UMBC showed how VSAs can be integrated into deep learning systems, such as compressing the output layer when performing Extreme Multilabel Classification [[2]](#2).
 
 
 ### References
